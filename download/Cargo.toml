@@ -1,0 +1,25 @@
+[package]
+name = "download"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.7.3"
+chrono = "0.4"
+# getrandom = {version = "0.2.2", features = ["js"] }
+clap = "2.33.3"
+proc-macro2 = "1.0.24"
+serde_json = "1.0.61"
+http = "0.2.3"
+url = "2.2.0"
+regex-syntax = "0.6.22"
+regex = "1.4.3"
+semver = "0.11.0"
+semver-parser = "0.10.2"
+flate2 = "1.0.19"
+time = "0.2.24"
+bat = "0.17.1"
+# xi-core-lib = "0.4.0" # 这个不行 failed to select a version for the requirement `xi-core-lib = "^0.4.0"` candidate versions found which didn't match: 0.3.0, 0.2.0, 0.1.0
+tui = "0.13.0"
