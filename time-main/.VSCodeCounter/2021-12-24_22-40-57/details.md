@@ -1,0 +1,132 @@
+# Details
+
+Date : 2021-12-24 22:40:57
+
+Directory d:\code\Rust crate\time-main
+
+Total : 117 files,  19955 codes, 3646 comments, 2619 blanks, all 26220 lines
+
+[summary](results.md)
+
+## Files
+| filename | language | code | comment | blank | total |
+| :--- | :--- | ---: | ---: | ---: | ---: |
+| [.github/CODE_OF_CONDUCT.md](/.github/CODE_OF_CONDUCT.md) | Markdown | 26 | 0 | 10 | 36 |
+| [.github/FUNDING.yml](/.github/FUNDING.yml) | YAML | 3 | 0 | 1 | 4 |
+| [.github/workflows/build.yaml](/.github/workflows/build.yaml) | YAML | 351 | 8 | 56 | 415 |
+| [.github/workflows/powerset.yaml](/.github/workflows/powerset.yaml) | YAML | 137 | 2 | 12 | 151 |
+| [.github/workflows/scheduled.yaml](/.github/workflows/scheduled.yaml) | YAML | 27 | 0 | 7 | 34 |
+| [CHANGELOG.md](/CHANGELOG.md) | Markdown | 559 | 0 | 136 | 695 |
+| [README.md](/README.md) | Markdown | 34 | 0 | 15 | 49 |
+| [benchmarks/date.rs](/benchmarks/date.rs) | Rust | 285 | 8 | 37 | 330 |
+| [benchmarks/duration.rs](/benchmarks/duration.rs) | Rust | 608 | 14 | 80 | 702 |
+| [benchmarks/formatting.rs](/benchmarks/formatting.rs) | Rust | 160 | 1 | 19 | 180 |
+| [benchmarks/instant.rs](/benchmarks/instant.rs) | Rust | 75 | 4 | 14 | 93 |
+| [benchmarks/main.rs](/benchmarks/main.rs) | Rust | 94 | 7 | 6 | 107 |
+| [benchmarks/month.rs](/benchmarks/month.rs) | Rust | 34 | 0 | 4 | 38 |
+| [benchmarks/offset_date_time.rs](/benchmarks/offset_date_time.rs) | Rust | 365 | 10 | 56 | 431 |
+| [benchmarks/parsing.rs](/benchmarks/parsing.rs) | Rust | 194 | 0 | 9 | 203 |
+| [benchmarks/primitive_date_time.rs](/benchmarks/primitive_date_time.rs) | Rust | 125 | 6 | 19 | 150 |
+| [benchmarks/rand.rs](/benchmarks/rand.rs) | Rust | 29 | 0 | 3 | 32 |
+| [benchmarks/time.rs](/benchmarks/time.rs) | Rust | 181 | 6 | 26 | 213 |
+| [benchmarks/utc_offset.rs](/benchmarks/utc_offset.rs) | Rust | 45 | 6 | 15 | 66 |
+| [benchmarks/util.rs](/benchmarks/util.rs) | Rust | 53 | 2 | 7 | 62 |
+| [benchmarks/weekday.rs](/benchmarks/weekday.rs) | Rust | 60 | 0 | 8 | 68 |
+| [logo.svg](/logo.svg) | XML | 1 | 0 | 0 | 1 |
+| [src/date.rs](/src/date.rs) | Rust | 424 | 438 | 73 | 935 |
+| [src/duration.rs](/src/duration.rs) | Rust | 488 | 390 | 125 | 1,003 |
+| [src/error/component_range.rs](/src/error/component_range.rs) | Rust | 61 | 13 | 14 | 88 |
+| [src/error/conversion_range.rs](/src/error/conversion_range.rs) | Rust | 26 | 3 | 9 | 38 |
+| [src/error/different_variant.rs](/src/error/different_variant.rs) | Rust | 25 | 3 | 8 | 36 |
+| [src/error/format.rs](/src/error/format.rs) | Rust | 69 | 7 | 12 | 88 |
+| [src/error/indeterminate_offset.rs](/src/error/indeterminate_offset.rs) | Rust | 29 | 2 | 9 | 40 |
+| [src/error/invalid_format_description.rs](/src/error/invalid_format_description.rs) | Rust | 75 | 12 | 9 | 96 |
+| [src/error/mod.rs](/src/error/mod.rs) | Rust | 96 | 5 | 7 | 108 |
+| [src/error/parse.rs](/src/error/parse.rs) | Rust | 88 | 3 | 15 | 106 |
+| [src/error/parse_from_description.rs](/src/error/parse_from_description.rs) | Rust | 39 | 4 | 9 | 52 |
+| [src/error/try_from_parsed.rs](/src/error/try_from_parsed.rs) | Rust | 59 | 5 | 12 | 76 |
+| [src/ext.rs](/src/ext.rs) | Rust | 140 | 102 | 38 | 280 |
+| [src/format_description/component.rs](/src/format_description/component.rs) | Rust | 128 | 33 | 7 | 168 |
+| [src/format_description/mod.rs](/src/format_description/mod.rs) | Rust | 101 | 67 | 19 | 187 |
+| [src/format_description/modifier.rs](/src/format_description/modifier.rs) | Rust | 345 | 131 | 34 | 510 |
+| [src/format_description/parse.rs](/src/format_description/parse.rs) | Rust | 70 | 14 | 14 | 98 |
+| [src/formatting/formattable.rs](/src/formatting/formattable.rs) | Rust | 204 | 10 | 25 | 239 |
+| [src/formatting/mod.rs](/src/formatting/mod.rs) | Rust | 386 | 44 | 28 | 458 |
+| [src/instant.rs](/src/instant.rs) | Rust | 159 | 67 | 37 | 263 |
+| [src/lib.rs](/src/lib.rs) | Rust | 210 | 100 | 21 | 331 |
+| [src/macros.rs](/src/macros.rs) | Rust | 6 | 107 | 2 | 115 |
+| [src/month.rs](/src/month.rs) | Rust | 117 | 15 | 11 | 143 |
+| [src/offset_date_time.rs](/src/offset_date_time.rs) | Rust | 436 | 597 | 95 | 1,128 |
+| [src/parsing/combinator/mod.rs](/src/parsing/combinator/mod.rs) | Rust | 154 | 17 | 22 | 193 |
+| [src/parsing/combinator/rfc/mod.rs](/src/parsing/combinator/rfc/mod.rs) | Rust | 2 | 5 | 2 | 9 |
+| [src/parsing/combinator/rfc/rfc2234.rs](/src/parsing/combinator/rfc/rfc2234.rs) | Rust | 7 | 4 | 3 | 14 |
+| [src/parsing/combinator/rfc/rfc2822.rs](/src/parsing/combinator/rfc/rfc2822.rs) | Rust | 79 | 18 | 18 | 115 |
+| [src/parsing/component.rs](/src/parsing/component.rs) | Rust | 243 | 22 | 20 | 285 |
+| [src/parsing/mod.rs](/src/parsing/mod.rs) | Rust | 40 | 8 | 10 | 58 |
+| [src/parsing/parsable.rs](/src/parsing/parsable.rs) | Rust | 395 | 28 | 42 | 465 |
+| [src/parsing/parsed.rs](/src/parsing/parsed.rs) | Rust | 378 | 71 | 31 | 480 |
+| [src/parsing/shim.rs](/src/parsing/shim.rs) | Rust | 39 | 5 | 7 | 51 |
+| [src/primitive_date_time.rs](/src/primitive_date_time.rs) | Rust | 271 | 449 | 63 | 783 |
+| [src/quickcheck.rs](/src/quickcheck.rs) | Rust | 156 | 39 | 22 | 217 |
+| [src/rand.rs](/src/rand.rs) | Rust | 81 | 1 | 12 | 94 |
+| [src/serde/mod.rs](/src/serde/mod.rs) | Rust | 219 | 27 | 36 | 282 |
+| [src/serde/rfc2822.rs](/src/serde/rfc2822.rs) | Rust | 37 | 17 | 9 | 63 |
+| [src/serde/rfc3339.rs](/src/serde/rfc3339.rs) | Rust | 37 | 17 | 9 | 63 |
+| [src/serde/timestamp.rs](/src/serde/timestamp.rs) | Rust | 32 | 21 | 8 | 61 |
+| [src/serde/visitor.rs](/src/serde/visitor.rs) | Rust | 270 | 2 | 58 | 330 |
+| [src/sys/local_offset_at/imp.rs](/src/sys/local_offset_at/imp.rs) | Rust | 4 | 1 | 3 | 8 |
+| [src/sys/local_offset_at/mod.rs](/src/sys/local_offset_at/mod.rs) | Rust | 7 | 3 | 4 | 14 |
+| [src/sys/local_offset_at/unix.rs](/src/sys/local_offset_at/unix.rs) | Rust | 76 | 31 | 18 | 125 |
+| [src/sys/local_offset_at/windows.rs](/src/sys/local_offset_at/windows.rs) | Rust | 81 | 18 | 17 | 116 |
+| [src/sys/mod.rs](/src/sys/mod.rs) | Rust | 5 | 1 | 4 | 10 |
+| [src/tests.rs](/src/tests.rs) | Rust | 85 | 5 | 11 | 101 |
+| [src/time.rs](/src/time.rs) | Rust | 326 | 239 | 54 | 619 |
+| [src/utc_offset.rs](/src/utc_offset.rs) | Rust | 137 | 157 | 28 | 322 |
+| [src/util.rs](/src/util.rs) | Rust | 31 | 43 | 7 | 81 |
+| [src/weekday.rs](/src/weekday.rs) | Rust | 77 | 41 | 11 | 129 |
+| [tests/integration/compile-fail/invalid_date.rs](/tests/integration/compile-fail/invalid_date.rs) | Rust | 21 | 0 | 2 | 23 |
+| [tests/integration/compile-fail/invalid_datetime.rs](/tests/integration/compile-fail/invalid_datetime.rs) | Rust | 7 | 0 | 2 | 9 |
+| [tests/integration/compile-fail/invalid_format_description.rs](/tests/integration/compile-fail/invalid_format_description.rs) | Rust | 11 | 0 | 2 | 13 |
+| [tests/integration/compile-fail/invalid_offset.rs](/tests/integration/compile-fail/invalid_offset.rs) | Rust | 11 | 0 | 2 | 13 |
+| [tests/integration/compile-fail/invalid_time.rs](/tests/integration/compile-fail/invalid_time.rs) | Rust | 16 | 0 | 2 | 18 |
+| [tests/integration/date.rs](/tests/integration/date.rs) | Rust | 789 | 44 | 89 | 922 |
+| [tests/integration/derives.rs](/tests/integration/derives.rs) | Rust | 152 | 0 | 14 | 166 |
+| [tests/integration/duration.rs](/tests/integration/duration.rs) | Rust | 664 | 0 | 107 | 771 |
+| [tests/integration/error.rs](/tests/integration/error.rs) | Rust | 170 | 0 | 17 | 187 |
+| [tests/integration/ext.rs](/tests/integration/ext.rs) | Rust | 97 | 2 | 14 | 113 |
+| [tests/integration/format_description.rs](/tests/integration/format_description.rs) | Rust | 29 | 0 | 6 | 35 |
+| [tests/integration/formatting.rs](/tests/integration/formatting.rs) | Rust | 452 | 1 | 39 | 492 |
+| [tests/integration/instant.rs](/tests/integration/instant.rs) | Rust | 201 | 0 | 36 | 237 |
+| [tests/integration/macros.rs](/tests/integration/macros.rs) | Rust | 139 | 0 | 5 | 144 |
+| [tests/integration/main.rs](/tests/integration/main.rs) | Rust | 70 | 3 | 4 | 77 |
+| [tests/integration/month.rs](/tests/integration/month.rs) | Rust | 79 | 0 | 7 | 86 |
+| [tests/integration/offset_date_time.rs](/tests/integration/offset_date_time.rs) | Rust | 970 | 17 | 102 | 1,089 |
+| [tests/integration/parse_format_description.rs](/tests/integration/parse_format_description.rs) | Rust | 501 | 0 | 24 | 525 |
+| [tests/integration/parsed.rs](/tests/integration/parsed.rs) | Rust | 145 | 0 | 10 | 155 |
+| [tests/integration/parsing.rs](/tests/integration/parsing.rs) | Rust | 1,105 | 10 | 41 | 1,156 |
+| [tests/integration/primitive_date_time.rs](/tests/integration/primitive_date_time.rs) | Rust | 603 | 12 | 65 | 680 |
+| [tests/integration/quickcheck.rs](/tests/integration/quickcheck.rs) | Rust | 154 | 1 | 23 | 178 |
+| [tests/integration/rand.rs](/tests/integration/rand.rs) | Rust | 15 | 1 | 3 | 19 |
+| [tests/integration/serde.rs](/tests/integration/serde.rs) | Rust | 710 | 0 | 25 | 735 |
+| [tests/integration/serde_helpers.rs](/tests/integration/serde_helpers.rs) | Rust | 216 | 0 | 10 | 226 |
+| [tests/integration/time.rs](/tests/integration/time.rs) | Rust | 222 | 2 | 47 | 271 |
+| [tests/integration/utc_offset.rs](/tests/integration/utc_offset.rs) | Rust | 155 | 0 | 19 | 174 |
+| [tests/integration/util.rs](/tests/integration/util.rs) | Rust | 70 | 2 | 7 | 79 |
+| [tests/integration/weekday.rs](/tests/integration/weekday.rs) | Rust | 71 | 0 | 8 | 79 |
+| [time-macros/src/date.rs](/time-macros/src/date.rs) | Rust | 115 | 4 | 19 | 138 |
+| [time-macros/src/datetime.rs](/time-macros/src/datetime.rs) | Rust | 43 | 0 | 9 | 52 |
+| [time-macros/src/error.rs](/time-macros/src/error.rs) | Rust | 107 | 0 | 11 | 118 |
+| [time-macros/src/format_description/component.rs](/time-macros/src/format_description/component.rs) | Rust | 146 | 0 | 7 | 153 |
+| [time-macros/src/format_description/error.rs](/time-macros/src/format_description/error.rs) | Rust | 29 | 0 | 3 | 32 |
+| [time-macros/src/format_description/mod.rs](/time-macros/src/format_description/mod.rs) | Rust | 35 | 0 | 6 | 41 |
+| [time-macros/src/format_description/modifier.rs](/time-macros/src/format_description/modifier.rs) | Rust | 367 | 1 | 36 | 404 |
+| [time-macros/src/format_description/parse.rs](/time-macros/src/format_description/parse.rs) | Rust | 73 | 0 | 12 | 85 |
+| [time-macros/src/helpers/mod.rs](/time-macros/src/helpers/mod.rs) | Rust | 116 | 0 | 21 | 137 |
+| [time-macros/src/helpers/string.rs](/time-macros/src/helpers/string.rs) | Rust | 171 | 2 | 16 | 189 |
+| [time-macros/src/lib.rs](/time-macros/src/lib.rs) | Rust | 80 | 2 | 11 | 93 |
+| [time-macros/src/offset.rs](/time-macros/src/offset.rs) | Rust | 85 | 0 | 11 | 96 |
+| [time-macros/src/quote.rs](/time-macros/src/quote.rs) | Rust | 100 | 5 | 6 | 111 |
+| [time-macros/src/time.rs](/time-macros/src/time.rs) | Rust | 107 | 1 | 11 | 119 |
+| [time-macros/src/to_tokens.rs](/time-macros/src/to_tokens.rs) | Rust | 40 | 0 | 6 | 46 |
+
+[summary](results.md)

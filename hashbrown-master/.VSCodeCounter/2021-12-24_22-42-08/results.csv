@@ -1,0 +1,32 @@
+"filename", "language", "Markdown", "Rust", "Shell Script", "YAML", "comment", "blank", "total"
+"d:\code\Rust crate\hashbrown-master\.github\workflows\rust.yml", "YAML", 0, 0, 0, 84, 5, 10, 99
+"d:\code\Rust crate\hashbrown-master\CHANGELOG.md", "Markdown", 247, 0, 0, 0, 0, 99, 346
+"d:\code\Rust crate\hashbrown-master\README.md", "Markdown", 98, 0, 0, 0, 0, 29, 127
+"d:\code\Rust crate\hashbrown-master\benches\bench.rs", "Rust", 0, 280, 0, 0, 13, 39, 332
+"d:\code\Rust crate\hashbrown-master\benches\insert_unique_unchecked.rs", "Rust", 0, 26, 0, 0, 1, 6, 33
+"d:\code\Rust crate\hashbrown-master\ci\miri.sh", "Shell Script", 0, 0, 9, 0, 1, 6, 16
+"d:\code\Rust crate\hashbrown-master\ci\run.sh", "Shell Script", 0, 0, 33, 0, 4, 11, 48
+"d:\code\Rust crate\hashbrown-master\ci\tools.sh", "Shell Script", 0, 0, 32, 0, 1, 9, 42
+"d:\code\Rust crate\hashbrown-master\src\external_trait_impls\mod.rs", "Rust", 0, 4, 0, 0, 0, 1, 5
+"d:\code\Rust crate\hashbrown-master\src\external_trait_impls\rayon\helpers.rs", "Rust", 0, 23, 0, 0, 1, 4, 28
+"d:\code\Rust crate\hashbrown-master\src\external_trait_impls\rayon\map.rs", "Rust", 0, 549, 0, 0, 82, 104, 735
+"d:\code\Rust crate\hashbrown-master\src\external_trait_impls\rayon\mod.rs", "Rust", 0, 4, 0, 0, 0, 1, 5
+"d:\code\Rust crate\hashbrown-master\src\external_trait_impls\rayon\raw.rs", "Rust", 0, 185, 0, 0, 17, 30, 232
+"d:\code\Rust crate\hashbrown-master\src\external_trait_impls\rayon\set.rs", "Rust", 0, 477, 0, 0, 96, 87, 660
+"d:\code\Rust crate\hashbrown-master\src\external_trait_impls\serde.rs", "Rust", 0, 168, 0, 0, 3, 31, 202
+"d:\code\Rust crate\hashbrown-master\src\lib.rs", "Rust", 0, 91, 0, 0, 40, 18, 149
+"d:\code\Rust crate\hashbrown-master\src\macros.rs", "Rust", 0, 48, 0, 0, 16, 6, 70
+"d:\code\Rust crate\hashbrown-master\src\map.rs", "Rust", 0, 3509, 0, 0, 2334, 553, 6396
+"d:\code\Rust crate\hashbrown-master\src\raw\alloc.rs", "Rust", 0, 65, 0, 0, 0, 9, 74
+"d:\code\Rust crate\hashbrown-master\src\raw\bitmask.rs", "Rust", 0, 78, 0, 0, 31, 14, 123
+"d:\code\Rust crate\hashbrown-master\src\raw\generic.rs", "Rust", 0, 83, 0, 0, 57, 15, 155
+"d:\code\Rust crate\hashbrown-master\src\raw\mod.rs", "Rust", 0, 1644, 0, 0, 526, 267, 2437
+"d:\code\Rust crate\hashbrown-master\src\raw\sse2.rs", "Rust", 0, 91, 0, 0, 42, 14, 147
+"d:\code\Rust crate\hashbrown-master\src\rustc_entry.rs", "Rust", 0, 240, 0, 0, 358, 35, 633
+"d:\code\Rust crate\hashbrown-master\src\scopeguard.rs", "Rust", 0, 43, 0, 0, 1, 6, 50
+"d:\code\Rust crate\hashbrown-master\src\set.rs", "Rust", 0, 1211, 0, 0, 938, 201, 2350
+"d:\code\Rust crate\hashbrown-master\tests\hasher.rs", "Rust", 0, 47, 0, 0, 5, 14, 66
+"d:\code\Rust crate\hashbrown-master\tests\rayon.rs", "Rust", 0, 409, 0, 0, 8, 117, 534
+"d:\code\Rust crate\hashbrown-master\tests\serde.rs", "Rust", 0, 54, 0, 0, 1, 11, 66
+"d:\code\Rust crate\hashbrown-master\tests\set.rs", "Rust", 0, 29, 0, 0, 1, 5, 35
+"Total", "-", 345, 9358, 74, 84, 4582, 1752, 16195

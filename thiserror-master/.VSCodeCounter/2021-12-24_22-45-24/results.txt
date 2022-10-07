@@ -1,0 +1,79 @@
+Date : 2021-12-24 22:45:24
+Directory : d:\code\Rust crate\thiserror-master
+Total : 46 files,  2844 codes, 293 comments, 448 blanks, all 3585 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| Rust     |         44 |      2,642 |        293 |        395 |      3,330 |
+| Markdown |          1 |        154 |          0 |         47 |        201 |
+| YAML     |          1 |         48 |          0 |          6 |         54 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                      | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                         |         46 |      2,844 |        293 |        448 |      3,585 |
+| .github                                                                   |          1 |         48 |          0 |          6 |         54 |
+| .github\workflows                                                         |          1 |         48 |          0 |          6 |         54 |
+| impl                                                                      |          8 |      1,449 |          6 |        110 |      1,565 |
+| impl\src                                                                  |          8 |      1,449 |          6 |        110 |      1,565 |
+| src                                                                       |          3 |         71 |        204 |         18 |        293 |
+| tests                                                                     |         33 |      1,122 |         83 |        267 |      1,472 |
+| tests\ui                                                                  |         21 |        173 |          2 |         73 |        248 |
++---------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                  | language | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| d:\code\Rust crate\thiserror-master\.github\workflows\ci.yml              | YAML     |         48 |          0 |          6 |         54 |
+| d:\code\Rust crate\thiserror-master\README.md                             | Markdown |        154 |          0 |         47 |        201 |
+| d:\code\Rust crate\thiserror-master\impl\src\ast.rs                       | Rust     |        153 |          0 |         13 |        166 |
+| d:\code\Rust crate\thiserror-master\impl\src\attr.rs                      | Rust     |        196 |          1 |         17 |        214 |
+| d:\code\Rust crate\thiserror-master\impl\src\expand.rs                    | Rust     |        497 |          0 |         26 |        523 |
+| d:\code\Rust crate\thiserror-master\impl\src\fmt.rs                       | Rust     |        156 |          4 |         11 |        171 |
+| d:\code\Rust crate\thiserror-master\impl\src\generics.rs                  | Rust     |         74 |          0 |          9 |         83 |
+| d:\code\Rust crate\thiserror-master\impl\src\lib.rs                       | Rust     |         29 |          0 |          5 |         34 |
+| d:\code\Rust crate\thiserror-master\impl\src\prop.rs                      | Rust     |        116 |          1 |         19 |        136 |
+| d:\code\Rust crate\thiserror-master\impl\src\valid.rs                     | Rust     |        228 |          0 |         10 |        238 |
+| d:\code\Rust crate\thiserror-master\src\aserror.rs                        | Rust     |         35 |          0 |          7 |         42 |
+| d:\code\Rust crate\thiserror-master\src\display.rs                        | Rust     |         23 |          0 |          6 |         29 |
+| d:\code\Rust crate\thiserror-master\src\lib.rs                            | Rust     |         13 |        204 |          5 |        222 |
+| d:\code\Rust crate\thiserror-master\tests\compiletest.rs                  | Rust     |          6 |          2 |          1 |          9 |
+| d:\code\Rust crate\thiserror-master\tests\test_backtrace.rs               | Rust     |        210 |          0 |         39 |        249 |
+| d:\code\Rust crate\thiserror-master\tests\test_display.rs                 | Rust     |        224 |          1 |         50 |        275 |
+| d:\code\Rust crate\thiserror-master\tests\test_error.rs                   | Rust     |         48 |          0 |         10 |         58 |
+| d:\code\Rust crate\thiserror-master\tests\test_expr.rs                    | Rust     |         75 |          3 |         12 |         90 |
+| d:\code\Rust crate\thiserror-master\tests\test_from.rs                    | Rust     |         54 |          0 |         11 |         65 |
+| d:\code\Rust crate\thiserror-master\tests\test_generics.rs                | Rust     |         72 |         71 |         20 |        163 |
+| d:\code\Rust crate\thiserror-master\tests\test_lints.rs                   | Rust     |         10 |          3 |          6 |         19 |
+| d:\code\Rust crate\thiserror-master\tests\test_option.rs                  | Rust     |         93 |          0 |         14 |        107 |
+| d:\code\Rust crate\thiserror-master\tests\test_path.rs                    | Rust     |         33 |          0 |          7 |         40 |
+| d:\code\Rust crate\thiserror-master\tests\test_source.rs                  | Rust     |         57 |          1 |         10 |         68 |
+| d:\code\Rust crate\thiserror-master\tests\test_transparent.rs             | Rust     |         67 |          0 |         14 |         81 |
+| d:\code\Rust crate\thiserror-master\tests\ui\bad-field-attr.rs            | Rust     |          5 |          0 |          3 |          8 |
+| d:\code\Rust crate\thiserror-master\tests\ui\concat-display.rs            | Rust     |         10 |          1 |          5 |         16 |
+| d:\code\Rust crate\thiserror-master\tests\ui\duplicate-enum-source.rs     | Rust     |         11 |          0 |          3 |         14 |
+| d:\code\Rust crate\thiserror-master\tests\ui\duplicate-fmt.rs             | Rust     |          6 |          0 |          3 |          9 |
+| d:\code\Rust crate\thiserror-master\tests\ui\duplicate-struct-source.rs   | Rust     |          9 |          0 |          3 |         12 |
+| d:\code\Rust crate\thiserror-master\tests\ui\duplicate-transparent.rs     | Rust     |          6 |          0 |          3 |          9 |
+| d:\code\Rust crate\thiserror-master\tests\ui\from-backtrace-backtrace.rs  | Rust     |          7 |          1 |          5 |         13 |
+| d:\code\Rust crate\thiserror-master\tests\ui\from-not-source.rs           | Rust     |          9 |          0 |          3 |         12 |
+| d:\code\Rust crate\thiserror-master\tests\ui\lifetime.rs                  | Rust     |         19 |          0 |          6 |         25 |
+| d:\code\Rust crate\thiserror-master\tests\ui\missing-fmt.rs               | Rust     |          8 |          0 |          3 |         11 |
+| d:\code\Rust crate\thiserror-master\tests\ui\no-display.rs                | Rust     |          9 |          0 |          4 |         13 |
+| d:\code\Rust crate\thiserror-master\tests\ui\source-enum-not-error.rs     | Rust     |         11 |          0 |          4 |         15 |
+| d:\code\Rust crate\thiserror-master\tests\ui\source-struct-not-error.rs   | Rust     |          9 |          0 |          4 |         13 |
+| d:\code\Rust crate\thiserror-master\tests\ui\transparent-display.rs       | Rust     |          6 |          0 |          3 |          9 |
+| d:\code\Rust crate\thiserror-master\tests\ui\transparent-enum-many.rs     | Rust     |          7 |          0 |          3 |         10 |
+| d:\code\Rust crate\thiserror-master\tests\ui\transparent-enum-source.rs   | Rust     |          7 |          0 |          3 |         10 |
+| d:\code\Rust crate\thiserror-master\tests\ui\transparent-struct-many.rs   | Rust     |          8 |          0 |          3 |         11 |
+| d:\code\Rust crate\thiserror-master\tests\ui\transparent-struct-source.rs | Rust     |          5 |          0 |          3 |          8 |
+| d:\code\Rust crate\thiserror-master\tests\ui\unexpected-field-fmt.rs      | Rust     |          9 |          0 |          3 |         12 |
+| d:\code\Rust crate\thiserror-master\tests\ui\unexpected-struct-source.rs  | Rust     |          5 |          0 |          3 |          8 |
+| d:\code\Rust crate\thiserror-master\tests\ui\union.rs                     | Rust     |          7 |          0 |          3 |         10 |
+| Total                                                                     |          |      2,844 |        293 |        448 |      3,585 |
++---------------------------------------------------------------------------+----------+------------+------------+------------+------------+

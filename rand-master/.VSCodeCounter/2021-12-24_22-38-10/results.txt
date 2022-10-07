@@ -1,0 +1,152 @@
+Date : 2021-12-24 22:38:10
+Directory : d:\code\Rust crate\rand-master
+Total : 101 files,  14641 codes, 5113 comments, 2523 blanks, all 22277 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| Rust     |         82 |     13,259 |      5,063 |      2,113 |     20,435 |
+| Markdown |         15 |      1,104 |          0 |        370 |      1,474 |
+| YAML     |          2 |        219 |          7 |         14 |        240 |
+| Python   |          1 |         58 |         43 |         25 |        126 |
+| HTML     |          1 |          1 |          0 |          1 |          2 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                      | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                         |        101 |     14,641 |      5,113 |      2,523 |     22,277 |
+| .github                                                                   |          6 |        266 |          7 |         43 |        316 |
+| .github\ISSUE_TEMPLATE                                                    |          4 |         47 |          0 |         29 |         76 |
+| .github\workflows                                                         |          2 |        219 |          7 |         14 |        240 |
+| benches                                                                   |          5 |        824 |         73 |        131 |      1,028 |
+| examples                                                                  |          2 |         84 |         62 |         30 |        176 |
+| rand_chacha                                                               |          5 |        785 |        135 |        124 |      1,044 |
+| rand_chacha\src                                                           |          3 |        721 |        135 |         98 |        954 |
+| rand_core                                                                 |          8 |        967 |        649 |        212 |      1,828 |
+| rand_core\src                                                             |          6 |        831 |        649 |        172 |      1,652 |
+| rand_distr                                                                |         34 |      5,041 |      1,403 |        700 |      7,144 |
+| rand_distr\benches                                                        |          1 |        191 |          9 |         33 |        233 |
+| rand_distr\benches\src                                                    |          1 |        191 |          9 |         33 |        233 |
+| rand_distr\src                                                            |         27 |      4,143 |      1,329 |        560 |      6,032 |
+| rand_distr\tests                                                          |          4 |        612 |         65 |         81 |        758 |
+| rand_pcg                                                                  |         10 |        650 |        260 |        160 |      1,070 |
+| rand_pcg\src                                                              |          4 |        353 |        248 |         82 |        683 |
+| rand_pcg\tests                                                            |          4 |        239 |         12 |         52 |        303 |
+| src                                                                       |         26 |      5,261 |      2,481 |        874 |      8,616 |
+| src\distributions                                                         |         11 |      2,780 |      1,146 |        436 |      4,362 |
+| src\rngs                                                                  |         10 |        702 |        483 |        181 |      1,366 |
+| src\rngs\adapter                                                          |          3 |        320 |        160 |         75 |        555 |
+| src\seq                                                                   |          2 |      1,383 |        455 |        198 |      2,036 |
+| utils                                                                     |          2 |         59 |         43 |         26 |        128 |
++---------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                  | language | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| d:\code\Rust crate\rand-master\.github\ISSUE_TEMPLATE\compile-issue.md    | Markdown |         11 |          0 |          6 |         17 |
+| d:\code\Rust crate\rand-master\.github\ISSUE_TEMPLATE\feature_request.md  | Markdown |         12 |          0 |          7 |         19 |
+| d:\code\Rust crate\rand-master\.github\ISSUE_TEMPLATE\other.md            | Markdown |          7 |          0 |          4 |         11 |
+| d:\code\Rust crate\rand-master\.github\ISSUE_TEMPLATE\suggest-a-change.md | Markdown |         17 |          0 |         12 |         29 |
+| d:\code\Rust crate\rand-master\.github\workflows\gh-pages.yml             | YAML     |         28 |          1 |          3 |         32 |
+| d:\code\Rust crate\rand-master\.github\workflows\test.yml                 | YAML     |        191 |          6 |         11 |        208 |
+| d:\code\Rust crate\rand-master\CHANGELOG.md                               | Markdown |        536 |          0 |        162 |        698 |
+| d:\code\Rust crate\rand-master\README.md                                  | Markdown |        118 |          0 |         41 |        159 |
+| d:\code\Rust crate\rand-master\SECURITY.md                                | Markdown |         50 |          0 |         20 |         70 |
+| d:\code\Rust crate\rand-master\benches\distributions.rs                   | Rust     |        341 |         39 |         61 |        441 |
+| d:\code\Rust crate\rand-master\benches\generators.rs                      | Rust     |        139 |          7 |         19 |        165 |
+| d:\code\Rust crate\rand-master\benches\misc.rs                            | Rust     |        155 |          9 |         20 |        184 |
+| d:\code\Rust crate\rand-master\benches\seq.rs                             | Rust     |        165 |         11 |         25 |        201 |
+| d:\code\Rust crate\rand-master\benches\weighted.rs                        | Rust     |         24 |          7 |          6 |         37 |
+| d:\code\Rust crate\rand-master\examples\monte-carlo.rs                    | Rust     |         19 |         25 |          8 |         52 |
+| d:\code\Rust crate\rand-master\examples\monty-hall.rs                     | Rust     |         65 |         37 |         22 |        124 |
+| d:\code\Rust crate\rand-master\rand_chacha\CHANGELOG.md                   | Markdown |         30 |          0 |         10 |         40 |
+| d:\code\Rust crate\rand-master\rand_chacha\README.md                      | Markdown |         34 |          0 |         16 |         50 |
+| d:\code\Rust crate\rand-master\rand_chacha\src\chacha.rs                  | Rust     |        465 |        110 |         63 |        638 |
+| d:\code\Rust crate\rand-master\rand_chacha\src\guts.rs                    | Rust     |        239 |         15 |         28 |        282 |
+| d:\code\Rust crate\rand-master\rand_chacha\src\lib.rs                     | Rust     |         17 |         10 |          7 |         34 |
+| d:\code\Rust crate\rand-master\rand_core\CHANGELOG.md                     | Markdown |         78 |          0 |         16 |         94 |
+| d:\code\Rust crate\rand-master\rand_core\README.md                        | Markdown |         58 |          0 |         24 |         82 |
+| d:\code\Rust crate\rand-master\rand_core\src\block.rs                     | Rust     |        327 |        147 |         66 |        540 |
+| d:\code\Rust crate\rand-master\rand_core\src\error.rs                     | Rust     |        159 |         49 |         21 |        229 |
+| d:\code\Rust crate\rand-master\rand_core\src\impls.rs                     | Rust     |        117 |         70 |         21 |        208 |
+| d:\code\Rust crate\rand-master\rand_core\src\le.rs                        | Rust     |         34 |         13 |         10 |         57 |
+| d:\code\Rust crate\rand-master\rand_core\src\lib.rs                       | Rust     |        159 |        330 |         43 |        532 |
+| d:\code\Rust crate\rand-master\rand_core\src\os.rs                        | Rust     |         35 |         40 |         11 |         86 |
+| d:\code\Rust crate\rand-master\rand_distr\CHANGELOG.md                    | Markdown |         53 |          0 |         10 |         63 |
+| d:\code\Rust crate\rand-master\rand_distr\README.md                       | Markdown |         42 |          0 |         16 |         58 |
+| d:\code\Rust crate\rand-master\rand_distr\benches\src\distributions.rs    | Rust     |        191 |          9 |         33 |        233 |
+| d:\code\Rust crate\rand-master\rand_distr\src\binomial.rs                 | Rust     |        233 |         76 |         40 |        349 |
+| d:\code\Rust crate\rand-master\rand_distr\src\cauchy.rs                   | Rust     |        111 |         39 |         18 |        168 |
+| d:\code\Rust crate\rand-master\rand_distr\src\dirichlet.rs                | Rust     |        135 |         36 |         16 |        187 |
+| d:\code\Rust crate\rand-master\rand_distr\src\exponential.rs              | Rust     |        104 |         62 |         16 |        182 |
+| d:\code\Rust crate\rand-master\rand_distr\src\frechet.rs                  | Rust     |        140 |         27 |         19 |        186 |
+| d:\code\Rust crate\rand-master\rand_distr\src\gamma.rs                    | Rust     |        593 |        169 |         53 |        815 |
+| d:\code\Rust crate\rand-master\rand_distr\src\geometric.rs                | Rust     |        148 |         56 |         33 |        237 |
+| d:\code\Rust crate\rand-master\rand_distr\src\gumbel.rs                   | Rust     |        114 |         26 |         16 |        156 |
+| d:\code\Rust crate\rand-master\rand_distr\src\hypergeometric.rs           | Rust     |        312 |         62 |         47 |        421 |
+| d:\code\Rust crate\rand-master\rand_distr\src\inverse_gaussian.rs         | Rust     |         89 |          6 |         18 |        113 |
+| d:\code\Rust crate\rand-master\rand_distr\src\lib.rs                      | Rust     |        108 |         92 |         14 |        214 |
+| d:\code\Rust crate\rand-master\rand_distr\src\normal.rs                   | Rust     |        203 |        135 |         34 |        372 |
+| d:\code\Rust crate\rand-master\rand_distr\src\normal_inverse_gaussian.rs  | Rust     |         86 |          6 |         16 |        108 |
+| d:\code\Rust crate\rand-master\rand_distr\src\pareto.rs                   | Rust     |         95 |         25 |         15 |        135 |
+| d:\code\Rust crate\rand-master\rand_distr\src\pert.rs                     | Rust     |        101 |         36 |         13 |        150 |
+| d:\code\Rust crate\rand-master\rand_distr\src\poisson.rs                  | Rust     |        120 |         43 |         19 |        182 |
+| d:\code\Rust crate\rand-master\rand_distr\src\skew_normal.rs              | Rust     |        186 |         48 |         23 |        257 |
+| d:\code\Rust crate\rand-master\rand_distr\src\triangular.rs               | Rust     |         91 |         32 |         11 |        134 |
+| d:\code\Rust crate\rand-master\rand_distr\src\unit_ball.rs                | Rust     |         24 |         21 |          4 |         49 |
+| d:\code\Rust crate\rand-master\rand_distr\src\unit_circle.rs              | Rust     |         38 |         25 |          6 |         69 |
+| d:\code\Rust crate\rand-master\rand_distr\src\unit_disc.rs                | Rust     |         22 |         20 |          4 |         46 |
+| d:\code\Rust crate\rand-master\rand_distr\src\unit_sphere.rs              | Rust     |         34 |         24 |          6 |         64 |
+| d:\code\Rust crate\rand-master\rand_distr\src\utils.rs                    | Rust     |         56 |         53 |         12 |        121 |
+| d:\code\Rust crate\rand-master\rand_distr\src\weibull.rs                  | Rust     |         97 |         22 |         14 |        133 |
+| d:\code\Rust crate\rand-master\rand_distr\src\weighted_alias.rs           | Rust     |        375 |         94 |         56 |        525 |
+| d:\code\Rust crate\rand-master\rand_distr\src\ziggurat_tables.rs          | Rust     |        271 |         10 |          3 |        284 |
+| d:\code\Rust crate\rand-master\rand_distr\src\zipf.rs                     | Rust     |        257 |         84 |         34 |        375 |
+| d:\code\Rust crate\rand-master\rand_distr\tests\pdf.rs                    | Rust     |        136 |         17 |         27 |        180 |
+| d:\code\Rust crate\rand-master\rand_distr\tests\sparkline.rs              | Rust     |        103 |         15 |         11 |        129 |
+| d:\code\Rust crate\rand-master\rand_distr\tests\uniformity.rs             | Rust     |         53 |          7 |          6 |         66 |
+| d:\code\Rust crate\rand-master\rand_distr\tests\value_stability.rs        | Rust     |        320 |         26 |         37 |        383 |
+| d:\code\Rust crate\rand-master\rand_pcg\CHANGELOG.md                      | Markdown |         30 |          0 |         11 |         41 |
+| d:\code\Rust crate\rand-master\rand_pcg\README.md                         | Markdown |         28 |          0 |         15 |         43 |
+| d:\code\Rust crate\rand-master\rand_pcg\src\lib.rs                        | Rust     |         14 |         28 |          5 |         47 |
+| d:\code\Rust crate\rand-master\rand_pcg\src\pcg128.rs                     | Rust     |        155 |         94 |         34 |        283 |
+| d:\code\Rust crate\rand-master\rand_pcg\src\pcg128cm.rs                   | Rust     |         96 |         65 |         22 |        183 |
+| d:\code\Rust crate\rand-master\rand_pcg\src\pcg64.rs                      | Rust     |         88 |         61 |         21 |        170 |
+| d:\code\Rust crate\rand-master\rand_pcg\tests\lcg128cmdxsm64.rs           | Rust     |         62 |          3 |         13 |         78 |
+| d:\code\Rust crate\rand-master\rand_pcg\tests\lcg128xsl64.rs              | Rust     |         62 |          3 |         13 |         78 |
+| d:\code\Rust crate\rand-master\rand_pcg\tests\lcg64xsh32.rs               | Rust     |         55 |          3 |         13 |         71 |
+| d:\code\Rust crate\rand-master\rand_pcg\tests\mcg128xsl64.rs              | Rust     |         60 |          3 |         13 |         76 |
+| d:\code\Rust crate\rand-master\src\distributions\bernoulli.rs             | Rust     |        123 |         71 |         21 |        215 |
+| d:\code\Rust crate\rand-master\src\distributions\distribution.rs          | Rust     |        147 |        100 |         26 |        273 |
+| d:\code\Rust crate\rand-master\src\distributions\float.rs                 | Rust     |        194 |         84 |         35 |        313 |
+| d:\code\Rust crate\rand-master\src\distributions\integer.rs               | Rust     |        236 |         11 |         28 |        275 |
+| d:\code\Rust crate\rand-master\src\distributions\mod.rs                   | Rust     |         37 |        174 |          8 |        219 |
+| d:\code\Rust crate\rand-master\src\distributions\other.rs                 | Rust     |        248 |         79 |         39 |        366 |
+| d:\code\Rust crate\rand-master\src\distributions\slice.rs                 | Rust     |         41 |         67 |         10 |        118 |
+| d:\code\Rust crate\rand-master\src\distributions\uniform.rs               | Rust     |      1,093 |        403 |        155 |      1,651 |
+| d:\code\Rust crate\rand-master\src\distributions\utils.rs                 | Rust     |        322 |         47 |         61 |        430 |
+| d:\code\Rust crate\rand-master\src\distributions\weighted.rs              | Rust     |         29 |         13 |          6 |         48 |
+| d:\code\Rust crate\rand-master\src\distributions\weighted_index.rs        | Rust     |        310 |         97 |         47 |        454 |
+| d:\code\Rust crate\rand-master\src\lib.rs                                 | Rust     |         88 |        115 |         13 |        216 |
+| d:\code\Rust crate\rand-master\src\prelude.rs                             | Rust     |         14 |         18 |          3 |         35 |
+| d:\code\Rust crate\rand-master\src\rng.rs                                 | Rust     |        294 |        264 |         43 |        601 |
+| d:\code\Rust crate\rand-master\src\rngs\adapter\mod.rs                    | Rust     |          5 |          8 |          4 |         17 |
+| d:\code\Rust crate\rand-master\src\rngs\adapter\read.rs                   | Rust     |         93 |         30 |         28 |        151 |
+| d:\code\Rust crate\rand-master\src\rngs\adapter\reseeding.rs              | Rust     |        222 |        122 |         43 |        387 |
+| d:\code\Rust crate\rand-master\src\rngs\mock.rs                           | Rust     |         51 |         24 |         13 |         88 |
+| d:\code\Rust crate\rand-master\src\rngs\mod.rs                            | Rust     |         15 |         97 |          8 |        120 |
+| d:\code\Rust crate\rand-master\src\rngs\small.rs                          | Rust     |         37 |         69 |         12 |        118 |
+| d:\code\Rust crate\rand-master\src\rngs\std.rs                            | Rust     |         53 |         25 |         21 |         99 |
+| d:\code\Rust crate\rand-master\src\rngs\thread.rs                         | Rust     |         64 |         62 |         18 |        144 |
+| d:\code\Rust crate\rand-master\src\rngs\xoshiro128plusplus.rs             | Rust     |         80 |         22 |         17 |        119 |
+| d:\code\Rust crate\rand-master\src\rngs\xoshiro256plusplus.rs             | Rust     |         82 |         24 |         17 |        123 |
+| d:\code\Rust crate\rand-master\src\seq\index.rs                           | Rust     |        477 |        125 |         77 |        679 |
+| d:\code\Rust crate\rand-master\src\seq\mod.rs                             | Rust     |        906 |        330 |        121 |      1,357 |
+| d:\code\Rust crate\rand-master\utils\redirect.html                        | HTML     |          1 |          0 |          1 |          2 |
+| d:\code\Rust crate\rand-master\utils\ziggurat_tables.py                   | Python   |         58 |         43 |         25 |        126 |
+| Total                                                                     |          |     14,641 |      5,113 |      2,523 |     22,277 |
++---------------------------------------------------------------------------+----------+------------+------------+------------+------------+

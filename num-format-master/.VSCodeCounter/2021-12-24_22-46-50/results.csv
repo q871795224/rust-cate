@@ -1,0 +1,64 @@
+"filename", "language", "Markdown", "Shell Script", "Rust", "YAML", "C++", "Python", "comment", "blank", "total"
+"d:\code\Rust crate\num-format-master\.travis.yml", "YAML", 0, 0, 0, 19, 0, 0, 0, 1, 20
+"d:\code\Rust crate\num-format-master\CHANGELOG.md", "Markdown", 69, 0, 0, 0, 0, 0, 0, 22, 91
+"d:\code\Rust crate\num-format-master\CONTRIBUTING.md", "Markdown", 49, 0, 0, 0, 0, 0, 0, 23, 72
+"d:\code\Rust crate\num-format-master\README.md", "Markdown", 161, 0, 0, 0, 0, 0, 0, 55, 216
+"d:\code\Rust crate\num-format-master\num-format-benches\README.md", "Markdown", 3, 0, 0, 0, 0, 0, 0, 2, 5
+"d:\code\Rust crate\num-format-master\num-format-benches\benches\bench_usize.rs", "Rust", 0, 0, 89, 0, 0, 0, 0, 6, 95
+"d:\code\Rust crate\num-format-master\num-format-benches\python\bench.py", "Python", 0, 0, 0, 0, 0, 11, 0, 4, 15
+"d:\code\Rust crate\num-format-master\num-format-benches\src\lib.rs", "Rust", 0, 0, 0, 0, 0, 0, 0, 2, 2
+"d:\code\Rust crate\num-format-master\num-format-dev\README.md", "Markdown", 3, 0, 0, 0, 0, 0, 0, 2, 5
+"d:\code\Rust crate\num-format-master\num-format-dev\src\create_module.rs", "Rust", 0, 0, 229, 0, 0, 0, 60, 42, 331
+"d:\code\Rust crate\num-format-master\num-format-dev\src\lib.rs", "Rust", 0, 0, 25, 0, 0, 0, 1, 4, 30
+"d:\code\Rust crate\num-format-master\num-format-dev\src\main.rs", "Rust", 0, 0, 12, 0, 0, 0, 0, 4, 16
+"d:\code\Rust crate\num-format-master\num-format-dev\src\parse_data.rs", "Rust", 0, 0, 95, 0, 0, 0, 12, 21, 128
+"d:\code\Rust crate\num-format-master\num-format-dev\src\rustfmt.rs", "Rust", 0, 0, 18, 0, 0, 0, 2, 5, 25
+"d:\code\Rust crate\num-format-master\num-format-dev\src\utils\format.rs", "Rust", 0, 0, 12, 0, 0, 0, 0, 3, 15
+"d:\code\Rust crate\num-format-master\num-format-dev\src\utils\grouping.rs", "Rust", 0, 0, 40, 0, 0, 0, 0, 7, 47
+"d:\code\Rust crate\num-format-master\num-format-dev\src\utils\mod.rs", "Rust", 0, 0, 4, 0, 0, 0, 0, 2, 6
+"d:\code\Rust crate\num-format-master\num-format-windows\README.md", "Markdown", 9, 0, 0, 0, 0, 0, 0, 4, 13
+"d:\code\Rust crate\num-format-master\num-format-windows\build.rs", "Rust", 0, 0, 31, 0, 0, 0, 0, 6, 37
+"d:\code\Rust crate\num-format-master\num-format-windows\src\lib.rs", "Rust", 0, 0, 6, 0, 0, 0, 10, 2, 18
+"d:\code\Rust crate\num-format-master\num-format-windows\wrapper.h", "C++", 0, 0, 0, 0, 1, 0, 0, 1, 2
+"d:\code\Rust crate\num-format-master\num-format\README.md", "Markdown", 161, 0, 0, 0, 0, 0, 0, 55, 216
+"d:\code\Rust crate\num-format-master\num-format\src\buffer.rs", "Rust", 0, 0, 177, 0, 0, 0, 36, 35, 248
+"d:\code\Rust crate\num-format-master\num-format\src\constants.rs", "Rust", 0, 0, 20, 0, 0, 0, 4, 5, 29
+"d:\code\Rust crate\num-format-master\num-format\src\custom_format.rs", "Rust", 0, 0, 123, 0, 0, 0, 38, 24, 185
+"d:\code\Rust crate\num-format-master\num-format\src\custom_format_builder.rs", "Rust", 0, 0, 120, 0, 0, 0, 26, 16, 162
+"d:\code\Rust crate\num-format-master\num-format\src\error.rs", "Rust", 0, 0, 119, 0, 0, 0, 8, 19, 146
+"d:\code\Rust crate\num-format-master\num-format\src\error_kind.rs", "Rust", 0, 0, 74, 0, 0, 0, 17, 22, 113
+"d:\code\Rust crate\num-format-master\num-format\src\format.rs", "Rust", 0, 0, 11, 0, 0, 0, 13, 2, 26
+"d:\code\Rust crate\num-format-master\num-format\src\grouping.rs", "Rust", 0, 0, 7, 0, 0, 0, 5, 1, 13
+"d:\code\Rust crate\num-format-master\num-format\src\impls.rs", "Rust", 0, 0, 3, 0, 0, 0, 0, 1, 4
+"d:\code\Rust crate\num-format-master\num-format\src\impls\integers.rs", "Rust", 0, 0, 197, 0, 0, 0, 9, 26, 232
+"d:\code\Rust crate\num-format-master\num-format\src\impls\num.rs", "Rust", 0, 0, 236, 0, 0, 0, 0, 23, 259
+"d:\code\Rust crate\num-format-master\num-format\src\lib.rs", "Rust", 0, 0, 69, 0, 0, 0, 227, 10, 306
+"d:\code\Rust crate\num-format-master\num-format\src\locale.rs", "Rust", 0, 0, 5531, 0, 0, 0, 0, 1, 5532
+"d:\code\Rust crate\num-format-master\num-format\src\parsing.rs", "Rust", 0, 0, 154, 0, 0, 0, 38, 29, 221
+"d:\code\Rust crate\num-format-master\num-format\src\strings.rs", "Rust", 0, 0, 187, 0, 0, 0, 61, 38, 286
+"d:\code\Rust crate\num-format-master\num-format\src\system_locale.rs", "Rust", 0, 0, 131, 0, 0, 0, 93, 28, 252
+"d:\code\Rust crate\num-format-master\num-format\src\system_locale\nix.rs", "Rust", 0, 0, 193, 0, 0, 0, 8, 34, 235
+"d:\code\Rust crate\num-format-master\num-format\src\system_locale\nix\bsd.rs", "Rust", 0, 0, 46, 0, 0, 0, 0, 7, 53
+"d:\code\Rust crate\num-format-master\num-format\src\system_locale\nix\encoding.rs", "Rust", 0, 0, 52, 0, 0, 0, 9, 13, 74
+"d:\code\Rust crate\num-format-master\num-format\src\system_locale\nix\linux.rs", "Rust", 0, 0, 54, 0, 0, 0, 0, 8, 62
+"d:\code\Rust crate\num-format-master\num-format\src\system_locale\windows.rs", "Rust", 0, 0, 358, 0, 0, 0, 17, 45, 420
+"d:\code\Rust crate\num-format-master\num-format\src\to_formatted_str.rs", "Rust", 0, 0, 9, 0, 0, 0, 5, 2, 16
+"d:\code\Rust crate\num-format-master\num-format\src\to_formatted_string.rs", "Rust", 0, 0, 53, 0, 0, 0, 6, 8, 67
+"d:\code\Rust crate\num-format-master\num-format\src\write_formatted.rs", "Rust", 0, 0, 88, 0, 0, 0, 20, 13, 121
+"d:\code\Rust crate\num-format-master\num-format\tests\common\mod.rs", "Rust", 0, 0, 42, 0, 0, 0, 0, 3, 45
+"d:\code\Rust crate\num-format-master\num-format\tests\test_errors.rs", "Rust", 0, 0, 102, 0, 0, 0, 0, 13, 115
+"d:\code\Rust crate\num-format-master\num-format\tests\test_no_bytes_written.rs", "Rust", 0, 0, 63, 0, 0, 0, 0, 7, 70
+"d:\code\Rust crate\num-format-master\num-format\tests\test_non_zero.rs", "Rust", 0, 0, 268, 0, 0, 0, 18, 28, 314
+"d:\code\Rust crate\num-format-master\num-format\tests\test_num_bigint.rs", "Rust", 0, 0, 177, 0, 0, 0, 6, 13, 196
+"d:\code\Rust crate\num-format-master\num-format\tests\test_serialization.rs", "Rust", 0, 0, 34, 0, 0, 0, 0, 9, 43
+"d:\code\Rust crate\num-format-master\num-format\tests\test_signed.rs", "Rust", 0, 0, 293, 0, 0, 0, 18, 27, 338
+"d:\code\Rust crate\num-format-master\num-format\tests\test_system_locale_unix.rs", "Rust", 0, 0, 24, 0, 0, 0, 0, 4, 28
+"d:\code\Rust crate\num-format-master\num-format\tests\test_system_locale_windows.rs", "Rust", 0, 0, 10, 0, 0, 0, 0, 3, 13
+"d:\code\Rust crate\num-format-master\num-format\tests\test_unsigned.rs", "Rust", 0, 0, 203, 0, 0, 0, 18, 27, 248
+"d:\code\Rust crate\num-format-master\scripts\README.md", "Markdown", 1, 0, 0, 0, 0, 0, 0, 1, 2
+"d:\code\Rust crate\num-format-master\scripts\bench.sh", "Shell Script", 0, 1, 0, 0, 0, 0, 1, 2, 4
+"d:\code\Rust crate\num-format-master\scripts\check.sh", "Shell Script", 0, 8, 0, 0, 0, 0, 3, 4, 15
+"d:\code\Rust crate\num-format-master\scripts\locale.sh", "Shell Script", 0, 3, 0, 0, 0, 0, 1, 3, 7
+"d:\code\Rust crate\num-format-master\scripts\readme.sh", "Shell Script", 0, 10, 0, 0, 0, 0, 1, 4, 15
+"d:\code\Rust crate\num-format-master\scripts\test.sh", "Shell Script", 0, 9, 0, 0, 0, 0, 3, 5, 17
+"Total", "-", 456, 31, 9789, 19, 1, 11, 794, 836, 11937

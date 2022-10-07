@@ -1,0 +1,108 @@
+Date : 2021-12-24 22:46:50
+Directory : d:\code\Rust crate\num-format-master
+Total : 62 files,  10307 codes, 794 comments, 836 blanks, all 11937 lines
+
+Languages
++--------------+------------+------------+------------+------------+------------+
+| language     | files      | code       | comment    | blank      | total      |
++--------------+------------+------------+------------+------------+------------+
+| Rust         |         46 |      9,789 |        785 |        648 |     11,222 |
+| Markdown     |          8 |        456 |          0 |        164 |        620 |
+| Shell Script |          5 |         31 |          9 |         18 |         58 |
+| YAML         |          1 |         19 |          0 |          1 |         20 |
+| Python       |          1 |         11 |          0 |          4 |         15 |
+| C++          |          1 |          1 |          0 |          1 |          2 |
++--------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                   |         62 |     10,307 |        794 |        836 |     11,937 |
+| num-format                                                                          |         35 |      9,389 |        700 |        599 |     10,688 |
+| num-format-benches                                                                  |          4 |        103 |          0 |         14 |        117 |
+| num-format-benches\benches                                                          |          1 |         89 |          0 |          6 |         95 |
+| num-format-benches\python                                                           |          1 |         11 |          0 |          4 |         15 |
+| num-format-benches\src                                                              |          1 |          0 |          0 |          2 |          2 |
+| num-format-dev                                                                      |          9 |        438 |         75 |         90 |        603 |
+| num-format-dev\src                                                                  |          8 |        435 |         75 |         88 |        598 |
+| num-format-dev\src\utils                                                            |          3 |         56 |          0 |         12 |         68 |
+| num-format-windows                                                                  |          4 |         47 |         10 |         13 |         70 |
+| num-format-windows\src                                                              |          1 |          6 |         10 |          2 |         18 |
+| num-format\src                                                                      |         24 |      8,012 |        640 |        410 |      9,062 |
+| num-format\src\impls                                                                |          2 |        433 |          9 |         49 |        491 |
+| num-format\src\system_locale                                                        |          5 |        703 |         34 |        107 |        844 |
+| num-format\src\system_locale\nix                                                    |          3 |        152 |          9 |         28 |        189 |
+| num-format\tests                                                                    |         10 |      1,216 |         60 |        134 |      1,410 |
+| num-format\tests\common                                                             |          1 |         42 |          0 |          3 |         45 |
+| scripts                                                                             |          6 |         32 |          9 |         19 |         60 |
++-------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------------+--------------+------------+------------+------------+------------+
+| filename                                                                            | language     | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------+--------------+------------+------------+------------+------------+
+| d:\code\Rust crate\num-format-master\.travis.yml                                    | YAML         |         19 |          0 |          1 |         20 |
+| d:\code\Rust crate\num-format-master\CHANGELOG.md                                   | Markdown     |         69 |          0 |         22 |         91 |
+| d:\code\Rust crate\num-format-master\CONTRIBUTING.md                                | Markdown     |         49 |          0 |         23 |         72 |
+| d:\code\Rust crate\num-format-master\README.md                                      | Markdown     |        161 |          0 |         55 |        216 |
+| d:\code\Rust crate\num-format-master\num-format-benches\README.md                   | Markdown     |          3 |          0 |          2 |          5 |
+| d:\code\Rust crate\num-format-master\num-format-benches\benches\bench_usize.rs      | Rust         |         89 |          0 |          6 |         95 |
+| d:\code\Rust crate\num-format-master\num-format-benches\python\bench.py             | Python       |         11 |          0 |          4 |         15 |
+| d:\code\Rust crate\num-format-master\num-format-benches\src\lib.rs                  | Rust         |          0 |          0 |          2 |          2 |
+| d:\code\Rust crate\num-format-master\num-format-dev\README.md                       | Markdown     |          3 |          0 |          2 |          5 |
+| d:\code\Rust crate\num-format-master\num-format-dev\src\create_module.rs            | Rust         |        229 |         60 |         42 |        331 |
+| d:\code\Rust crate\num-format-master\num-format-dev\src\lib.rs                      | Rust         |         25 |          1 |          4 |         30 |
+| d:\code\Rust crate\num-format-master\num-format-dev\src\main.rs                     | Rust         |         12 |          0 |          4 |         16 |
+| d:\code\Rust crate\num-format-master\num-format-dev\src\parse_data.rs               | Rust         |         95 |         12 |         21 |        128 |
+| d:\code\Rust crate\num-format-master\num-format-dev\src\rustfmt.rs                  | Rust         |         18 |          2 |          5 |         25 |
+| d:\code\Rust crate\num-format-master\num-format-dev\src\utils\format.rs             | Rust         |         12 |          0 |          3 |         15 |
+| d:\code\Rust crate\num-format-master\num-format-dev\src\utils\grouping.rs           | Rust         |         40 |          0 |          7 |         47 |
+| d:\code\Rust crate\num-format-master\num-format-dev\src\utils\mod.rs                | Rust         |          4 |          0 |          2 |          6 |
+| d:\code\Rust crate\num-format-master\num-format-windows\README.md                   | Markdown     |          9 |          0 |          4 |         13 |
+| d:\code\Rust crate\num-format-master\num-format-windows\build.rs                    | Rust         |         31 |          0 |          6 |         37 |
+| d:\code\Rust crate\num-format-master\num-format-windows\src\lib.rs                  | Rust         |          6 |         10 |          2 |         18 |
+| d:\code\Rust crate\num-format-master\num-format-windows\wrapper.h                   | C++          |          1 |          0 |          1 |          2 |
+| d:\code\Rust crate\num-format-master\num-format\README.md                           | Markdown     |        161 |          0 |         55 |        216 |
+| d:\code\Rust crate\num-format-master\num-format\src\buffer.rs                       | Rust         |        177 |         36 |         35 |        248 |
+| d:\code\Rust crate\num-format-master\num-format\src\constants.rs                    | Rust         |         20 |          4 |          5 |         29 |
+| d:\code\Rust crate\num-format-master\num-format\src\custom_format.rs                | Rust         |        123 |         38 |         24 |        185 |
+| d:\code\Rust crate\num-format-master\num-format\src\custom_format_builder.rs        | Rust         |        120 |         26 |         16 |        162 |
+| d:\code\Rust crate\num-format-master\num-format\src\error.rs                        | Rust         |        119 |          8 |         19 |        146 |
+| d:\code\Rust crate\num-format-master\num-format\src\error_kind.rs                   | Rust         |         74 |         17 |         22 |        113 |
+| d:\code\Rust crate\num-format-master\num-format\src\format.rs                       | Rust         |         11 |         13 |          2 |         26 |
+| d:\code\Rust crate\num-format-master\num-format\src\grouping.rs                     | Rust         |          7 |          5 |          1 |         13 |
+| d:\code\Rust crate\num-format-master\num-format\src\impls.rs                        | Rust         |          3 |          0 |          1 |          4 |
+| d:\code\Rust crate\num-format-master\num-format\src\impls\integers.rs               | Rust         |        197 |          9 |         26 |        232 |
+| d:\code\Rust crate\num-format-master\num-format\src\impls\num.rs                    | Rust         |        236 |          0 |         23 |        259 |
+| d:\code\Rust crate\num-format-master\num-format\src\lib.rs                          | Rust         |         69 |        227 |         10 |        306 |
+| d:\code\Rust crate\num-format-master\num-format\src\locale.rs                       | Rust         |      5,531 |          0 |          1 |      5,532 |
+| d:\code\Rust crate\num-format-master\num-format\src\parsing.rs                      | Rust         |        154 |         38 |         29 |        221 |
+| d:\code\Rust crate\num-format-master\num-format\src\strings.rs                      | Rust         |        187 |         61 |         38 |        286 |
+| d:\code\Rust crate\num-format-master\num-format\src\system_locale.rs                | Rust         |        131 |         93 |         28 |        252 |
+| d:\code\Rust crate\num-format-master\num-format\src\system_locale\nix.rs            | Rust         |        193 |          8 |         34 |        235 |
+| d:\code\Rust crate\num-format-master\num-format\src\system_locale\nix\bsd.rs        | Rust         |         46 |          0 |          7 |         53 |
+| d:\code\Rust crate\num-format-master\num-format\src\system_locale\nix\encoding.rs   | Rust         |         52 |          9 |         13 |         74 |
+| d:\code\Rust crate\num-format-master\num-format\src\system_locale\nix\linux.rs      | Rust         |         54 |          0 |          8 |         62 |
+| d:\code\Rust crate\num-format-master\num-format\src\system_locale\windows.rs        | Rust         |        358 |         17 |         45 |        420 |
+| d:\code\Rust crate\num-format-master\num-format\src\to_formatted_str.rs             | Rust         |          9 |          5 |          2 |         16 |
+| d:\code\Rust crate\num-format-master\num-format\src\to_formatted_string.rs          | Rust         |         53 |          6 |          8 |         67 |
+| d:\code\Rust crate\num-format-master\num-format\src\write_formatted.rs              | Rust         |         88 |         20 |         13 |        121 |
+| d:\code\Rust crate\num-format-master\num-format\tests\common\mod.rs                 | Rust         |         42 |          0 |          3 |         45 |
+| d:\code\Rust crate\num-format-master\num-format\tests\test_errors.rs                | Rust         |        102 |          0 |         13 |        115 |
+| d:\code\Rust crate\num-format-master\num-format\tests\test_no_bytes_written.rs      | Rust         |         63 |          0 |          7 |         70 |
+| d:\code\Rust crate\num-format-master\num-format\tests\test_non_zero.rs              | Rust         |        268 |         18 |         28 |        314 |
+| d:\code\Rust crate\num-format-master\num-format\tests\test_num_bigint.rs            | Rust         |        177 |          6 |         13 |        196 |
+| d:\code\Rust crate\num-format-master\num-format\tests\test_serialization.rs         | Rust         |         34 |          0 |          9 |         43 |
+| d:\code\Rust crate\num-format-master\num-format\tests\test_signed.rs                | Rust         |        293 |         18 |         27 |        338 |
+| d:\code\Rust crate\num-format-master\num-format\tests\test_system_locale_unix.rs    | Rust         |         24 |          0 |          4 |         28 |
+| d:\code\Rust crate\num-format-master\num-format\tests\test_system_locale_windows.rs | Rust         |         10 |          0 |          3 |         13 |
+| d:\code\Rust crate\num-format-master\num-format\tests\test_unsigned.rs              | Rust         |        203 |         18 |         27 |        248 |
+| d:\code\Rust crate\num-format-master\scripts\README.md                              | Markdown     |          1 |          0 |          1 |          2 |
+| d:\code\Rust crate\num-format-master\scripts\bench.sh                               | Shell Script |          1 |          1 |          2 |          4 |
+| d:\code\Rust crate\num-format-master\scripts\check.sh                               | Shell Script |          8 |          3 |          4 |         15 |
+| d:\code\Rust crate\num-format-master\scripts\locale.sh                              | Shell Script |          3 |          1 |          3 |          7 |
+| d:\code\Rust crate\num-format-master\scripts\readme.sh                              | Shell Script |         10 |          1 |          4 |         15 |
+| d:\code\Rust crate\num-format-master\scripts\test.sh                                | Shell Script |          9 |          3 |          5 |         17 |
+| Total                                                                               |              |     10,307 |        794 |        836 |     11,937 |
++-------------------------------------------------------------------------------------+--------------+------------+------------+------------+------------+

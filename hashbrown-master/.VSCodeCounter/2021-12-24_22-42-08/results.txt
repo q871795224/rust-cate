@@ -1,0 +1,66 @@
+Date : 2021-12-24 22:42:08
+Directory : d:\code\Rust crate\hashbrown-master
+Total : 30 files,  9861 codes, 4582 comments, 1752 blanks, all 16195 lines
+
+Languages
++--------------+------------+------------+------------+------------+------------+
+| language     | files      | code       | comment    | blank      | total      |
++--------------+------------+------------+------------+------------+------------+
+| Rust         |         24 |      9,358 |      4,571 |      1,588 |     15,517 |
+| Markdown     |          2 |        345 |          0 |        128 |        473 |
+| YAML         |          1 |         84 |          5 |         10 |         99 |
+| Shell Script |          3 |         74 |          6 |         26 |        106 |
++--------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                          | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                             |         30 |      9,861 |      4,582 |      1,752 |     16,195 |
+| .github                                                                       |          1 |         84 |          5 |         10 |         99 |
+| .github\workflows                                                             |          1 |         84 |          5 |         10 |         99 |
+| benches                                                                       |          2 |        306 |         14 |         45 |        365 |
+| ci                                                                            |          3 |         74 |          6 |         26 |        106 |
+| src                                                                           |         18 |      8,513 |      4,542 |      1,396 |     14,451 |
+| src\external_trait_impls                                                      |          7 |      1,410 |        199 |        258 |      1,867 |
+| src\external_trait_impls\rayon                                                |          5 |      1,238 |        196 |        226 |      1,660 |
+| src\raw                                                                       |          5 |      1,961 |        656 |        319 |      2,936 |
+| tests                                                                         |          4 |        539 |         15 |        147 |        701 |
++-------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------+--------------+------------+------------+------------+------------+
+| filename                                                                      | language     | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------+--------------+------------+------------+------------+------------+
+| d:\code\Rust crate\hashbrown-master\.github\workflows\rust.yml                | YAML         |         84 |          5 |         10 |         99 |
+| d:\code\Rust crate\hashbrown-master\CHANGELOG.md                              | Markdown     |        247 |          0 |         99 |        346 |
+| d:\code\Rust crate\hashbrown-master\README.md                                 | Markdown     |         98 |          0 |         29 |        127 |
+| d:\code\Rust crate\hashbrown-master\benches\bench.rs                          | Rust         |        280 |         13 |         39 |        332 |
+| d:\code\Rust crate\hashbrown-master\benches\insert_unique_unchecked.rs        | Rust         |         26 |          1 |          6 |         33 |
+| d:\code\Rust crate\hashbrown-master\ci\miri.sh                                | Shell Script |          9 |          1 |          6 |         16 |
+| d:\code\Rust crate\hashbrown-master\ci\run.sh                                 | Shell Script |         33 |          4 |         11 |         48 |
+| d:\code\Rust crate\hashbrown-master\ci\tools.sh                               | Shell Script |         32 |          1 |          9 |         42 |
+| d:\code\Rust crate\hashbrown-master\src\external_trait_impls\mod.rs           | Rust         |          4 |          0 |          1 |          5 |
+| d:\code\Rust crate\hashbrown-master\src\external_trait_impls\rayon\helpers.rs | Rust         |         23 |          1 |          4 |         28 |
+| d:\code\Rust crate\hashbrown-master\src\external_trait_impls\rayon\map.rs     | Rust         |        549 |         82 |        104 |        735 |
+| d:\code\Rust crate\hashbrown-master\src\external_trait_impls\rayon\mod.rs     | Rust         |          4 |          0 |          1 |          5 |
+| d:\code\Rust crate\hashbrown-master\src\external_trait_impls\rayon\raw.rs     | Rust         |        185 |         17 |         30 |        232 |
+| d:\code\Rust crate\hashbrown-master\src\external_trait_impls\rayon\set.rs     | Rust         |        477 |         96 |         87 |        660 |
+| d:\code\Rust crate\hashbrown-master\src\external_trait_impls\serde.rs         | Rust         |        168 |          3 |         31 |        202 |
+| d:\code\Rust crate\hashbrown-master\src\lib.rs                                | Rust         |         91 |         40 |         18 |        149 |
+| d:\code\Rust crate\hashbrown-master\src\macros.rs                             | Rust         |         48 |         16 |          6 |         70 |
+| d:\code\Rust crate\hashbrown-master\src\map.rs                                | Rust         |      3,509 |      2,334 |        553 |      6,396 |
+| d:\code\Rust crate\hashbrown-master\src\raw\alloc.rs                          | Rust         |         65 |          0 |          9 |         74 |
+| d:\code\Rust crate\hashbrown-master\src\raw\bitmask.rs                        | Rust         |         78 |         31 |         14 |        123 |
+| d:\code\Rust crate\hashbrown-master\src\raw\generic.rs                        | Rust         |         83 |         57 |         15 |        155 |
+| d:\code\Rust crate\hashbrown-master\src\raw\mod.rs                            | Rust         |      1,644 |        526 |        267 |      2,437 |
+| d:\code\Rust crate\hashbrown-master\src\raw\sse2.rs                           | Rust         |         91 |         42 |         14 |        147 |
+| d:\code\Rust crate\hashbrown-master\src\rustc_entry.rs                        | Rust         |        240 |        358 |         35 |        633 |
+| d:\code\Rust crate\hashbrown-master\src\scopeguard.rs                         | Rust         |         43 |          1 |          6 |         50 |
+| d:\code\Rust crate\hashbrown-master\src\set.rs                                | Rust         |      1,211 |        938 |        201 |      2,350 |
+| d:\code\Rust crate\hashbrown-master\tests\hasher.rs                           | Rust         |         47 |          5 |         14 |         66 |
+| d:\code\Rust crate\hashbrown-master\tests\rayon.rs                            | Rust         |        409 |          8 |        117 |        534 |
+| d:\code\Rust crate\hashbrown-master\tests\serde.rs                            | Rust         |         54 |          1 |         11 |         66 |
+| d:\code\Rust crate\hashbrown-master\tests\set.rs                              | Rust         |         29 |          1 |          5 |         35 |
+| Total                                                                         |              |      9,861 |      4,582 |      1,752 |     16,195 |
++-------------------------------------------------------------------------------+--------------+------------+------------+------------+------------+
